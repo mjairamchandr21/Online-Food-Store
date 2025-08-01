@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Soda - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .soda-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .soda-card {
+      background-color: #f4fcff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .soda-card:hover {
+      transform: scale(1.03);
+    }
+
+    .soda-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .soda-content {
+      padding: 15px;
+    }
+
+    .soda-content h3 {
+      margin-bottom: 10px;
+      color: #1c75bc;
+    }
+
+    .soda-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #444;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Refreshing Sodas & Sparkling Drinks</h2>
+      <p>Stay cool and refreshed with our bubbly collection of soda drinks!</p>
+
+      <div class="soda-grid">
+        <!-- Soda 1 -->
+        <div class="soda-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\m1.jpeg" alt="Cola Classic">
+          <div class="soda-content">
+            <h3>Cola Classic</h3>
+            <p>The all-time favorite fizzy drink with bold cola flavor.</p>
+          </div>
+        </div>
+
+        <!-- Soda 2 -->
+        <div class="soda-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\m2.jpeg" alt="Lemon Soda">
+          <div class="soda-content">
+            <h3>Lemon Fizz</h3>
+            <p>Zesty lemon soda that’s light, citrusy, and ultra-refreshing.</p>
+          </div>
+        </div>
+
+        <!-- Soda 3 -->
+        <div class="soda-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\m3.jpeg" alt="Orange Fizz">
+          <div class="soda-content">
+            <h3>Orange Blast</h3>
+            <p>Bright, tangy orange soda with sweet citrus bursts in every sip.</p>
+          </div>
+        </div>
+
+        <!-- Soda 4 -->
+        <div class="soda-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\m4.jpeg" alt="Ginger Ale">
+          <div class="soda-content">
+            <h3>Ginger Ale</h3>
+            <p>A spicy-sweet soda with real ginger kick – great with meals!</p>
+          </div>
+        </div>
+
+        <!-- Soda 5 -->
+        <div class="soda-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\m5.jpeg" alt="Mint Soda">
+          <div class="soda-content">
+            <h3>Mint Cooler</h3>
+            <p>Cool and refreshing mint soda to freshen up any moment.</p>
+          </div>
+        </div>
+
+        <!-- Soda 6 -->
+        <div class="soda-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\m6.jpeg" alt="Strawberry Soda">
+          <div class="soda-content">
+            <h3>Strawberry Spark</h3>
+            <p>Sweet strawberry soda with a fizzy pink twist – kids love it!</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

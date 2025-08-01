@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kebabs - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .kebab-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .kebab-card {
+      background-color: #fff8f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .kebab-card:hover {
+      transform: scale(1.03);
+    }
+
+    .kebab-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .kebab-content {
+      padding: 15px;
+    }
+
+    .kebab-content h3 {
+      margin-bottom: 10px;
+      color: #c0392b;
+    }
+
+    .kebab-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Our Kebab Selection</h2>
+      <p>Juicy, smoky, and spiced to perfection — discover our irresistible kebab varieties.</p>
+
+      <div class="kebab-grid">
+        <!-- Kebab 1 -->
+        <div class="kebab-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\seekh kebab.jpeg" alt="Seekh Kebab">
+          <div class="kebab-content">
+            <h3>Seekh Kebab</h3>
+            <p>Minced meat grilled on skewers with traditional spices and herbs.</p>
+          </div>
+        </div>
+
+        <!-- Kebab 2 -->
+        <div class="kebab-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\chicken malai ebab.jpeg" alt="Chicken Malai Kebab">
+          <div class="kebab-content">
+            <h3>Chicken Malai Kebab</h3>
+            <p>Soft chicken kebabs marinated in cream, cheese, and mild spices.</p>
+          </div>
+        </div>
+
+        <!-- Kebab 3 -->
+        <div class="kebab-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\paneer tikka.jpeg" alt="Paneer Tikka">
+          <div class="kebab-content">
+            <h3>Paneer Tikka</h3>
+            <p>Chunks of paneer marinated in yogurt and spices, grilled to perfection.</p>
+          </div>
+        </div>
+
+        <!-- Kebab 4 -->
+        <div class="kebab-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\hara bhara kebab.jpeg" alt="Hara Bhara Kebab">
+          <div class="kebab-content">
+            <h3>Hara Bhara Kebab</h3>
+            <p>Vegetarian kebabs made with spinach, peas, and aromatic herbs.</p>
+          </div>
+        </div>
+
+        <!-- Kebab 5 -->
+        <div class="kebab-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\shami kebab.jpeg" alt="Shami Kebab">
+          <div class="kebab-content">
+            <h3>Shami Kebab</h3>
+            <p>Traditional Lucknowi kebabs made with minced meat and chana dal.</p>
+          </div>
+        </div>
+
+        <!-- Kebab 6 -->
+        <div class="kebab-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\fish tikka.jpeg" alt="Fish Tikka">
+          <div class="kebab-content">
+            <h3>Fish Tikka</h3>
+            <p>Boneless fish pieces marinated in tangy spices and grilled till golden.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

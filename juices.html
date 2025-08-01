@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Juices - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .juice-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .juice-card {
+      background-color: #fff7f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .juice-card:hover {
+      transform: scale(1.03);
+    }
+
+    .juice-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .juice-content {
+      padding: 15px;
+    }
+
+    .juice-content h3 {
+      margin-bottom: 10px;
+      color: #e97451;
+    }
+
+    .juice-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #444;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Fresh Fruit Juices</h2>
+      <p>Enjoy nature’s flavors with our cold-pressed, refreshing juice collection.</p>
+
+      <div class="juice-grid">
+        <!-- Juice 1 -->
+        <div class="juice-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\j1.jpeg" alt="Orange Juice">
+          <div class="juice-content">
+            <h3>Orange Juice</h3>
+            <p>Freshly squeezed oranges packed with Vitamin C and zest.</p>
+          </div>
+        </div>
+
+        <!-- Juice 2 -->
+        <div class="juice-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\j2.jpeg" alt="Apple Juice">
+          <div class="juice-content">
+            <h3>Apple Juice</h3>
+            <p>Pure, crisp, and sweet apple juice – no added sugar, just nature.</p>
+          </div>
+        </div>
+
+        <!-- Juice 3 -->
+        <div class="juice-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\j3.jpeg" alt="Pineapple Juice">
+          <div class="juice-content">
+            <h3>Pineapple Juice</h3>
+            <p>Tropical goodness in every sip – sweet, tangy, and rejuvenating.</p>
+          </div>
+        </div>
+
+        <!-- Juice 4 -->
+        <div class="juice-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\j4.jpeg" alt="Mango Juice">
+          <div class="juice-content">
+            <h3>Mango Juice</h3>
+            <p>Golden, thick, and flavorful mango delight – a summer favorite!</p>
+          </div>
+        </div>
+
+        <!-- Juice 5 -->
+        <div class="juice-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\j5.jpeg" alt="Watermelon Juice">
+          <div class="juice-content">
+            <h3>Watermelon Juice</h3>
+            <p>Cooling and hydrating, this juicy red drink is a hot-day must.</p>
+          </div>
+        </div>
+
+        <!-- Juice 6 -->
+        <div class="juice-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\j6.jpeg" alt="Grape Juice">
+          <div class="juice-content">
+            <h3>Grape Juice</h3>
+            <p>Deep purple juice bursting with natural sweetness and antioxidants.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

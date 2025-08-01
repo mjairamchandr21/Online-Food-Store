@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pasta - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .pasta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .pasta-card {
+      background-color: #fff3e9;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .pasta-card:hover {
+      transform: scale(1.03);
+    }
+
+    .pasta-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .pasta-content {
+      padding: 15px;
+    }
+
+    .pasta-content h3 {
+      margin-bottom: 10px;
+      color: #d95e1f;
+    }
+
+    .pasta-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Our Pasta Selection</h2>
+      <p>From creamy Alfredo to spicy Arrabiata, indulge in our delicious pasta dishes.</p>
+
+      <div class="pasta-grid">
+        <!-- Pasta 1 -->
+        <div class="pasta-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\creamy alfredo pasta.jpeg" alt="Creamy Alfredo Pasta">
+          <div class="pasta-content">
+            <h3>Creamy Alfredo Pasta</h3>
+            <p>Rich and creamy white sauce pasta with mushrooms and herbs.</p>
+          </div>
+        </div>
+
+        <!-- Pasta 2 -->
+        <div class="pasta-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\spaghetti pizza.jpeg" alt="Spaghetti Bolognese">
+          <div class="pasta-content">
+            <h3>Spaghetti Bolognese</h3>
+            <p>Classic Italian meat sauce tossed with long spaghetti noodles.</p>
+          </div>
+        </div>
+
+        <!-- Pasta 3 -->
+        <div class="pasta-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\penne arrabiata.jpeg" alt="Penne Arrabiata">
+          <div class="pasta-content">
+            <h3>Penne Arrabiata</h3>
+            <p>Spicy red sauce pasta with garlic, tomato, and chili flakes.</p>
+          </div>
+        </div>
+
+        <!-- Pasta 4 -->
+        <div class="pasta-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\mac and cheese.jpeg" alt="Mac & Cheese">
+          <div class="pasta-content">
+            <h3>Mac & Cheese</h3>
+            <p>Cheesy comfort food with elbow macaroni and golden crust.</p>
+          </div>
+        </div>
+
+        <!-- Pasta 5 -->
+        <div class="pasta-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\pesto pasta.jpeg" alt="Pesto Pasta">
+          <div class="pasta-content">
+            <h3>Pesto Pasta</h3>
+            <p>Fresh basil pesto tossed with pasta, cherry tomatoes, and parmesan.</p>
+          </div>
+        </div>
+
+        <!-- Pasta 6 -->
+        <div class="pasta-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\lasanya.jpeg" alt="Lasagna">
+          <div class="pasta-content">
+            <h3>Lasagna</h3>
+            <p>Layered pasta with meat, ricotta cheese, and marinara sauce, oven baked.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biryani - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+    .biryani-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .biryani-card {
+      background-color: #fff8f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .biryani-card:hover {
+      transform: scale(1.03);
+    }
+
+    .biryani-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .biryani-content {
+      padding: 15px;
+    }
+
+    .biryani-content h3 {
+      margin-bottom: 10px;
+      color: #b3541e;
+    }
+
+    .biryani-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+    <nav align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+    </nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+ 
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Our Biryani Collection</h2>
+      <p>Delve into the world of aromatic spices and rice with our signature biryanis — every plate tells a delicious story.</p>
+
+      <div class="biryani-grid">
+        <!-- Biryani 1 -->
+        <div class="biryani-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\hyderabadi biryani.jpeg" alt="Hyderabadi Biryani">
+          <div class="biryani-content">
+            <h3>Hyderabadi Biryani</h3>
+            <p>Spicy, fragrant, and rich in tradition — this iconic biryani features layered rice and marinated meat.</p>
+          </div>
+        </div>
+
+        <!-- Biryani 2 -->
+        <div class="biryani-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\locknowi biryani.jpeg" alt="Lucknowi Biryani">
+          <div class="biryani-content">
+            <h3>Lucknowi Biryani</h3>
+            <p>Delicate and aromatic Awadhi style biryani cooked with subtle spices and saffron-scented rice.</p>
+          </div>
+        </div>
+
+        <!-- Biryani 3 -->
+        <div class="biryani-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\veg biryani.jpeg" alt="Veg Biryani">
+          <div class="biryani-content">
+            <h3>Veg Biryani</h3>
+            <p>Colorful vegetables and basmati rice come together in this light, flavorful vegetarian delight.</p>
+          </div>
+        </div>
+
+        <!-- Biryani 4 -->
+        <div class="biryani-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\egg biryani.jpeg" alt="Egg Biryani">
+          <div class="biryani-content">
+            <h3>Egg Biryani</h3>
+            <p>A perfect fusion of boiled eggs and spiced rice — a protein-rich, tasty option for egg lovers.</p>
+          </div>
+        </div>
+
+        <!-- Biryani 5 -->
+        <div class="biryani-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\chicken biryani.jpeg" alt="Chicken Biryani">
+          <div class="biryani-content">
+            <h3>Chicken Biryani</h3>
+            <p>Marinated chicken cooked with basmati rice and traditional spices — a true classic.</p>
+          </div>
+        </div>
+
+        <!-- Biryani 6 -->
+        <div class="biryani-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\paneer biryani.jpeg" alt="Paneer Biryani">
+          <div class="biryani-content">
+            <h3>Paneer Biryani</h3>
+            <p>Soft paneer cubes soaked in rich masala, layered with rice for a creamy, satisfying taste.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

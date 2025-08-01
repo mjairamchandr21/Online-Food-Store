@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coleslaw - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .coleslaw-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .coleslaw-card {
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .coleslaw-card:hover {
+      transform: scale(1.03);
+    }
+
+    .coleslaw-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .coleslaw-content {
+      padding: 15px;
+    }
+
+    .coleslaw-content h3 {
+      margin-bottom: 10px;
+      color: #2e7d32;
+    }
+
+    .coleslaw-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Fresh & Creamy Coleslaws</h2>
+      <p>Crunchy cabbage, creamy dressings, and tangy flavors — our coleslaws are a perfect side dish for any meal.</p>
+
+      <div class="coleslaw-grid">
+        <!-- Coleslaw 1 -->
+        <div class="coleslaw-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\c1.jpeg" alt="Classic Creamy Coleslaw">
+          <div class="coleslaw-content">
+            <h3>Classic Creamy Coleslaw</h3>
+            <p>A perfect balance of creamy mayo, crunchy cabbage, and carrots.</p>
+          </div>
+        </div>
+
+        <!-- Coleslaw 2 -->
+        <div class="coleslaw-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\c2.jpeg" alt="Vinegar Slaw">
+          <div class="coleslaw-content">
+            <h3>Vinegar Slaw</h3>
+            <p>A lighter, tangy version with vinegar and spices — crisp and refreshing!</p>
+          </div>
+        </div>
+
+        <!-- Coleslaw 3 -->
+        <div class="coleslaw-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\c3.jpeg" alt="Asian Coleslaw">
+          <div class="coleslaw-content">
+            <h3>Asian Coleslaw</h3>
+            <p>Tossed with sesame oil, soy sauce, and a hint of ginger for a bold twist.</p>
+          </div>
+        </div>
+
+        <!-- Coleslaw 4 -->
+        <div class="coleslaw-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\c4.jpeg" alt="Apple Coleslaw">
+          <div class="coleslaw-content">
+            <h3>Apple Coleslaw</h3>
+            <p>Sweet and tangy apples mixed with cabbage and a honey mustard dressing.</p>
+          </div>
+        </div>
+
+        <!-- Coleslaw 5 -->
+        <div class="coleslaw-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\c5.jpeg" alt="Spicy Jalapeño Slaw">
+          <div class="coleslaw-content">
+            <h3>Spicy Jalapeño Slaw</h3>
+            <p>With jalapeños, lime, and cilantro — this one brings the heat!</p>
+          </div>
+        </div>
+
+        <!-- Coleslaw 6 -->
+        <div class="coleslaw-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\c6.jpeg" alt="Greek Yogurt Coleslaw">
+          <div class="coleslaw-content">
+            <h3>Greek Yogurt Coleslaw</h3>
+            <p>A healthier take with creamy Greek yogurt and fresh herbs.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

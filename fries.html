@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fries - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .fries-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .fries-card {
+      background-color: #fff7e6;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .fries-card:hover {
+      transform: scale(1.03);
+    }
+
+    .fries-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .fries-content {
+      padding: 15px;
+    }
+
+    .fries-content h3 {
+      margin-bottom: 10px;
+      color: #e67e22;
+    }
+
+    .fries-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Our Fries Selection</h2>
+      <p>Hot, crispy, and full of flavor — enjoy our range of fries perfect for snacking or sides.</p>
+
+      <div class="fries-grid">
+        <!-- Fries 1 -->
+        <div class="fries-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\f1.jpeg" alt="Classic French Fries">
+          <div class="fries-content">
+            <h3>Classic French Fries</h3>
+            <p>Golden and crispy, seasoned with salt — a timeless favorite.</p>
+          </div>
+        </div>
+
+        <!-- Fries 2 -->
+        <div class="fries-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\f2.jpeg" alt="Cheesy Fries">
+          <div class="fries-content">
+            <h3>Cheesy Fries</h3>
+            <p>Smothered in rich cheddar cheese and sprinkled with herbs.</p>
+          </div>
+        </div>
+
+        <!-- Fries 3 -->
+        <div class="fries-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\f3.jpeg" alt="Peri Peri Fries">
+          <div class="fries-content">
+            <h3>Peri Peri Fries</h3>
+            <p>Spicy and tangy peri-peri seasoning adds a zesty punch.</p>
+          </div>
+        </div>
+
+        <!-- Fries 4 -->
+        <div class="fries-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\f4.jpeg" alt="Loaded Fries">
+          <div class="fries-content">
+            <h3>Loaded Fries</h3>
+            <p>Topped with cheese, jalapeños, sauces, and a burst of flavor.</p>
+          </div>
+        </div>
+
+        <!-- Fries 5 -->
+        <div class="fries-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\f5.jpeg" alt="Curly Fries">
+          <div class="fries-content">
+            <h3>Curly Fries</h3>
+            <p>Fun spiral-shaped fries with a crispy texture and mild spice.</p>
+          </div>
+        </div>
+
+        <!-- Fries 6 -->
+        <div class="fries-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\f6.jpeg" alt="Garlic Parmesan Fries">
+          <div class="fries-content">
+            <h3>Garlic Parmesan Fries</h3>
+            <p>Tossed with garlic, parmesan, and parsley for a savory delight.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

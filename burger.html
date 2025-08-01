@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Burgers - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .burger-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .burger-card {
+      background-color: #fff7ef;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .burger-card:hover {
+      transform: scale(1.03);
+    }
+
+    .burger-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .burger-content {
+      padding: 15px;
+    }
+
+    .burger-content h3 {
+      margin-bottom: 10px;
+      color: #d9551f;
+    }
+
+    .burger-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Our Burger Collection</h2>
+      <p>Juicy, flavorful, and satisfying — check out our range of delicious burgers below.</p>
+
+      <div class="burger-grid">
+        <!-- Burger 1 -->
+        <div class="burger-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\classic cheese burger.jpeg" alt="Classic Cheeseburger">
+          <div class="burger-content">
+            <h3>Classic Cheeseburger</h3>
+            <p>All-time favorite with beef patty, cheddar cheese, lettuce, tomato, and mayo.</p>
+          </div>
+        </div>
+
+        <!-- Burger 2 -->
+        <div class="burger-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\veg burger.jpeg" alt="Veggie Burger">
+          <div class="burger-content">
+            <h3>Veggie Burger</h3>
+            <p>A tasty patty made from mixed vegetables, grilled to perfection with fresh toppings.</p>
+          </div>
+        </div>
+
+        <!-- Burger 3 -->
+        <div class="burger-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\spicy chicken burger.jpeg" alt="Spicy Chicken Burger">
+          <div class="burger-content">
+            <h3>Spicy Chicken Burger</h3>
+            <p>Crispy chicken fillet with spicy mayo and crunchy veggies in a soft bun.</p>
+          </div>
+        </div>
+
+        <!-- Burger 4 -->
+        <div class="burger-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\bbq bacon burger.jpeg" alt="BBQ Bacon Burger">
+          <div class="burger-content">
+            <h3>BBQ Bacon Burger</h3>
+            <p>Loaded with smoky BBQ sauce, crispy bacon, cheese, and grilled onions.</p>
+          </div>
+        </div>
+
+        <!-- Burger 5 -->
+        <div class="burger-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\Paneer burger.jpeg"alt="Paneer Delight Burger">
+          <div class="burger-content">
+            <h3>Paneer Delight</h3>
+            <p>Soft paneer patty seasoned with Indian spices, cheese, and tangy sauces.</p>
+          </div>
+        </div>
+
+        <!-- Burger 6 -->
+        <div class="burger-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\double patty.jpeg" alt="Double Patty Burger">
+          <div class="burger-content">
+            <h3>Double Patty Burger</h3>
+            <p>Two juicy patties stacked with melted cheese, onions, and classic burger sauce.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

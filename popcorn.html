@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Popcorn - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .popcorn-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .popcorn-card {
+      background-color: #fffaf2;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .popcorn-card:hover {
+      transform: scale(1.03);
+    }
+
+    .popcorn-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .popcorn-content {
+      padding: 15px;
+    }
+
+    .popcorn-content h3 {
+      margin-bottom: 10px;
+      color: #c26e00;
+    }
+
+    .popcorn-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #444;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Crunchy & Flavored Popcorn</h2>
+      <p>Perfect for movies, parties, or a quick snack — enjoy our delicious range of popcorn flavors.</p>
+
+      <div class="popcorn-grid">
+        <!-- Popcorn 1 -->
+        <div class="popcorn-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\p1.jpeg" alt="Classic Butter Popcorn">
+          <div class="popcorn-content">
+            <h3>Classic Butter</h3>
+            <p>Timeless taste with rich, melted butter coating each fluffy kernel.</p>
+          </div>
+        </div>
+
+        <!-- Popcorn 2 -->
+        <div class="popcorn-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\p2.jpeg" alt="Caramel Popcorn">
+          <div class="popcorn-content">
+            <h3>Caramel Popcorn</h3>
+            <p>Sweet and crunchy, drizzled with golden caramel for a delightful treat.</p>
+          </div>
+        </div>
+
+        <!-- Popcorn 3 -->
+        <div class="popcorn-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\p3.jpeg" alt="Cheese Popcorn">
+          <div class="popcorn-content">
+            <h3>Cheese Popcorn</h3>
+            <p>Loaded with real cheddar flavor, this one’s for the cheese lovers!</p>
+          </div>
+        </div>
+
+        <!-- Popcorn 4 -->
+        <div class="popcorn-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\p4.jpeg" alt="Spicy Masala Popcorn">
+          <div class="popcorn-content">
+            <h3>Spicy Masala</h3>
+            <p>A desi twist! Bursting with Indian spices and a hot kick.</p>
+          </div>
+        </div>
+
+        <!-- Popcorn 5 -->
+        <div class="popcorn-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\p5.jpeg" alt="Chocolate Popcorn">
+          <div class="popcorn-content">
+            <h3>Chocolate Popcorn</h3>
+            <p>Coated with rich chocolate glaze for those with a sweet tooth.</p>
+          </div>
+        </div>
+
+        <!-- Popcorn 6 -->
+        <div class="popcorn-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\p6.jpeg" alt="Rainbow Popcorn">
+          <div class="popcorn-content">
+            <h3>Rainbow Popcorn</h3>
+            <p>Colorful, fruity-flavored popcorn that’s fun and flavorful for all ages.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Garlic Bread - Online Food Store</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bread-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .bread-card {
+      background-color: #fff8f0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .bread-card:hover {
+      transform: scale(1.03);
+    }
+
+    .bread-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .bread-content {
+      padding: 15px;
+    }
+
+    .bread-content h3 {
+      margin-bottom: 10px;
+      color: #d35400;
+    }
+
+    .bread-content p {
+      font-size: 14px;
+      line-height: 1.5;
+      color: #333;
+    }
+     nav {
+            background-color: #ff6347;
+            text-align: right;
+            padding: 10px 20px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+  </style>
+</head>
+<body>
+    <nav class="nav" align="right">
+        <a href="display.html">Home</a>
+        <a href="contactsus.html">Contact Us</a>
+</nav>
+  <header class="top-header">
+    <h1>Online Food Store</h1>
+  </header>
+    <!-- Main Content -->
+    <main class="main-content">
+      <h2>Our Garlic Bread Collection</h2>
+      <p>Warm, buttery, and perfectly toasted — our garlic breads are the perfect side or snack!</p>
+
+      <div class="bread-grid">
+        <!-- Bread 1 -->
+        <div class="bread-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\g1.jpeg" alt="Classic Garlic Bread">
+          <div class="bread-content">
+            <h3>Classic Garlic Bread</h3>
+            <p>Freshly baked bread brushed with garlic butter and toasted to perfection.</p>
+          </div>
+        </div>
+
+        <!-- Bread 2 -->
+        <div class="bread-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\g2.jpeg" alt="Cheese Garlic Bread">
+          <div class="bread-content">
+            <h3>Cheese Garlic Bread</h3>
+            <p>Stuffed with mozzarella cheese and topped with herbs and garlic.</p>
+          </div>
+        </div>
+
+        <!-- Bread 3 -->
+        <div class="bread-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\g3.jpeg" alt="Chilli Garlic Bread">
+          <div class="bread-content">
+            <h3>Chilli Garlic Bread</h3>
+            <p>Spicy kick with red chilli flakes and garlic-infused butter.</p>
+          </div>
+        </div>
+
+        <!-- Bread 4 -->
+        <div class="bread-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\g4.jpeg" alt="Herb Garlic Bread">
+          <div class="bread-content">
+            <h3>Herb Garlic Bread</h3>
+            <p>Mixed with fresh basil, oregano, and parsley for an aromatic experience.</p>
+          </div>
+        </div>
+
+        <!-- Bread 5 -->
+        <div class="bread-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\g5.jpeg" alt="Stuffed Garlic Bread">
+          <div class="bread-content">
+            <h3>Stuffed Garlic Bread</h3>
+            <p>Loaded with cheese, sweet corn, and Italian herbs — a cheesy delight!</p>
+          </div>
+        </div>
+
+        <!-- Bread 6 -->
+        <div class="bread-card">
+          <img src="C:\Users\jaira\OneDrive\Desktop\html-css\webtech food website\g6.jpeg" alt="Garlic Bread Sticks">
+          <div class="bread-content">
+            <h3>Garlic Bread Sticks</h3>
+            <p>Thin, crispy, and perfect for dipping into your favorite sauces.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
